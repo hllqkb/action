@@ -52,12 +52,11 @@ def getpixiv():
     get=requests.get(pixiv)
     get=get.text
     pjson=json.loads(get)
-    pj=pjson['illusts']
+    pj=pjson['data']
     lenp=len(pj)
     for i in range(lenp):
         try:
-            url=pixivproxy+pj[i]['url']
-            url=url.replace('/-','')
+            url=pixivproxy+pj[i]['urls']['medium']
             plist.append(url)
         except:
             pass
