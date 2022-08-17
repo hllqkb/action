@@ -74,7 +74,7 @@ def getnewbangumi():
     return r
 def getnewpost():
     htmlp=requests.get(blog)
-    soup=BeautifulSoup(htmlp.text,'lxml')
+    soup=BeautifulSoup(htmlp.text,'html.parser')
     apost=soup.find('a',class_='article-title')
     apost=str(apost)
     re1 = 'href=\"(.*?)\"'
