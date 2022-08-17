@@ -10,8 +10,8 @@ from bs4 import BeautifulSoup
 from email.mime.text import MIMEText
 from email.utils import formataddr
 #config
-pixiv='https://pixiv.js.org/ajax/illust/discovery?mode=all&max=8'
 pixivproxy=os.environ['PROXY']
+pixiv='https://setu.yuban10703.xyz/setu?r18=1&num=20&replace_url='+pixivproxy
 weurl='http://www.weather.com.cn/data/sk/101240709.html'
 starttime=1660578304
 nowtime=int(time.time())
