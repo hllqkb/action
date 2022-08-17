@@ -11,7 +11,7 @@ from email.mime.text import MIMEText
 from email.utils import formataddr
 #config
 pixivproxy=os.environ['PROXY']
-pixiv='https://setu.yuban10703.xyz/setu?r18=1&num=20&replace_url='+pixivproxy
+pixiv='https://setu.yuban10703.xyz/setu?r18=1&num=10&replace_url='+pixivproxy
 weurl='http://www.weather.com.cn/data/sk/101240709.html'
 starttime=1660578304
 nowtime=int(time.time())
