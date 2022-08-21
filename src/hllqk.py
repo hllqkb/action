@@ -115,7 +115,7 @@ onesay+\
 '<p>冷的时候冷死，热的时候热死</p>'+\
 '<h2>你的Github常用语言:</h2>'+"<img src='https://github-readme-stats.vercel.app/api/top-langs/?username=hllqk&layout=compact&hide_border=true&langs_count=10' width='410px'>"+\
 '<p>从入门到入土</p>'+\
-'<h2>原神历程</h2>'+"<img src='https://genshin-card.getloli.com/9/257461679.png'>"+\
+'<h2>原神历程</h2>'+"<img src='https://genshin-card.himiku.com/9/257461679.png'>"+\
 '<p>旅途总会迎来终点 不必匆忙</p>'+\
 '<h2>最新博客帖子</h2>'+getnewpost()+'<br>'+\
 '<p>有坚持写博客吗？</p>'+\
