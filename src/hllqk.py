@@ -9,6 +9,7 @@ import re
 from bs4 import BeautifulSoup
 from email.mime.text import MIMEText
 from email.utils import formataddr
+import  hlx
 #config
 pixivproxy=os.environ['PROXY']
 pixiv='https://setu.yuban10703.xyz/setu?r18=1&num=15&replace_url='+pixivproxy
@@ -119,6 +120,7 @@ onesay+\
 '<p>旅途总会迎来终点 不必匆忙</p>'+\
 '<h2>最新博客帖子</h2>'+getnewpost()+'<br>'+\
 '<p>有坚持写博客吗？</p>'+\
+hlx.getnote()+\
 '<h2>推荐色图</h2>'
 img=getpixiv()
 for url in img:
