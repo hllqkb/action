@@ -33,4 +33,3 @@ def login(user,password):
     cookies=res.cookies
     cookies = requests.utils.dict_from_cookiejar(cookies)
     return cookies
-#print(login("3408006879@qq.com","Qw1357924680"))

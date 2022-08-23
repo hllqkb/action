@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests
 import login
-def freenom_renew():
+def freenom_renew(a,b):
     cookies=login.login(a,b)
     headers={
   "Host": "my.freenom.com",
