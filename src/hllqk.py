@@ -36,7 +36,7 @@ my_sender='shuia@shuia.tk'    # 发件人邮箱账号
 # 发件人邮箱密码
 my_pass=os.environ['PASS']
 my_user='3408006879@qq.com'      # 收件人邮箱账号，我这边发送给自己
-freenomtext=freenom.freenom_renew(my_user,my_pass) # 超时问题待解决
+#freenomtext=freenom.freenom_renew(my_user,my_pass) # 超时问题待解决
 bangumi='https://bangumi.bilibili.com/api/timeline_v2_global'
 headers={
 'Accept-Encoding':'gzip,deflate',
@@ -123,7 +123,7 @@ onesay+\
 '<h2>最新博客帖子</h2>'+getnewpost()+'<br>'+\
 '<p>有坚持写博客吗？</p>'+\
 hlx.getnote()+\
-'<h2>我的域名</h2>'+freenomtext+\
+'<h2>我的域名</h2>'+'freenomtext'+\
 '<h2>推荐色图</h2>'
 img=getpixiv()
 for url in img:
