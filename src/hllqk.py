@@ -35,7 +35,7 @@ timemsg='程序运行时间(UTC):'+runtime
 my_sender='shuia@shuia.tk'    # 发件人邮箱账号
 # 发件人邮箱密码
 my_pass=os.environ['PASS']
-my_user='3408006879@qq.com'      # 收件人邮箱账号，我这边发送给自己
+my_user='hllqk@outlook.com'      # 收件人邮箱账号，我这边发送给自己
 #freenomtext=freenom.freenom_renew(my_user,my_pass) # 超时问题待解决
 bangumi='https://bangumi.bilibili.com/api/timeline_v2_global'
 headers={
